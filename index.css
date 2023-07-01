@@ -1,0 +1,32 @@
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 750px;
+}
+
+.block-text {
+    text-align: justify;
+    max-width: 750px;
+    line-height: 25px;
+}
+
+.description, .steps, .ingredients {
+    margin-top: 50px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ol a {
+    font-weight: bold;
+}
+
+ol li {
+    margin-top: 20px;
+}
